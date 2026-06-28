@@ -39,4 +39,8 @@ app.get('/page', (c) => {
   `)
 })
 
+app.get('/raw', () => {
+  return new Response('Good morning!')
+})
+
 export default app
